@@ -1,4 +1,4 @@
-# SCARA Vision-Guided Pick-and-Place Robot
+# SCARA Vision-Guided Color-Sorting Robot with Digital Twin
 
 A joint Bachelor thesis project at the **Institute of Technology of Cambodia (ITC)**.
 
