@@ -1,0 +1,40 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# YOLO weight files (too large for GitHub - download separately)
+*.pt
+*.pt.1
+*.weights
+*.onnx
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs and recorded data
+*.bag
+*.bag.active
+*.db3
+*.log
+
+# Output graphs (regenerate from data)
+*.png
+!docs/**/*.png
+
+# Calibration backups
+*.bak
+
+# Embedded git from sub-folders (just in case)
+.git/

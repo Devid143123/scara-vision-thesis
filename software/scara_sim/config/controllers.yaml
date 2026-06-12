@@ -1,0 +1,22 @@
+# ros2_control configuration for scara_sim v3 (new URDF)
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    scara_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+scara_arm_controller:
+  ros__parameters:
+    joints:
+      - joint_0
+      - joint_1
+      - joint_2
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

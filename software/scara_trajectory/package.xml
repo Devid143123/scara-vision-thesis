@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>scara_trajectory</name>
+  <version>1.0.0</version>
+  <description>SCARA trajectory generation, digital twin and visualisation nodes.</description>
+  <maintainer email="sarinchandevid2019@gmail.com">SARIN Chandevid</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

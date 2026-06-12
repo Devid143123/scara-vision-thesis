@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>scara_sim</name>
+  <version>3.0.0</version>
+  <description>SCARA simulation v3 - new URDF (Robot_v2 from clean SW export)</description>
+  <maintainer email="devid@itc.edu.kh">SARIN Chandevid</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>ros2_controllers</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
